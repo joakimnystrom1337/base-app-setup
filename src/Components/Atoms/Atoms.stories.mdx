@@ -1,0 +1,24 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Atoms/Guidelines" />
+
+# About Atoms
+
+This are the smallest building blocks of the applications that are outside of configuration.
+
+Its return type is pretty much a pure component with no state
+
+## Examples
+
+- Button
+- Typography
+
+## Guidelines
+
+### Should a button have a loader state?
+
+No, that's a composed that belongs in molecules
+
+### Why don't a <Field\> component belong here?
+
+Since it's composed by a input and a label this would belong in the molecule
